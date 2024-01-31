@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-propio{
+    background-color: #28a745;
+}
+
+.navbar-brand {
+    display: contents;
+}
+
+.navbar-brand img{
+    height: 5%;
+}
+
+@media screen and (max-width:576px){
+    .logo-negro{
+        width: 30% !important;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+    .logo-negro{
+        width: 30% !important;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    .logo-negro{
+        width: 30% !important;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px){
+    .logo-negro{
+        width: 15% !important;
+    }
+}
+
+@media screen and (min-width:1201px){
+    .logo-negro{
+        width: 10% !important;
+    }
+}
